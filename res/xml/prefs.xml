@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory 
+        android:title="General">        
+        <EditTextPreference 
+        android:title="Update rate"
+        android:summary="Number of seconds to wait between chat updates (value between 5.0 and 300.0 seconds)."
+        android:key="update_rate"
+        android:persistent="true" 
+        android:defaultValue="20.0" />
+    <CheckBoxPreference 
+        android:title="Colorize names"
+        android:summary="Colorize nicknames depending on their rank."
+        android:key="colorized_names"
+        android:persistent="true"
+        android:defaultValue="true" />
+    </PreferenceCategory>
+    <CheckBoxPreference 
+        android:title="Display timestamp"
+        android:summary="Display message timestamp next to the messages author's name."
+        android:key="display_timestamp"
+        android:persistent="true"
+        android:defaultValue="true" />
+</PreferenceScreen>

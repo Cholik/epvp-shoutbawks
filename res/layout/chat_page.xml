@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+	   xmlns:tools="http://schemas.android.com/tools"
+       android:orientation="vertical"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent">
+       
+    <ListView
+        android:id="@+id/lstSbContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:transcriptMode="normal"
+        android:clickable="false"
+        android:cacheColorHint="#00000000" />
+    
+    <ImageView 
+        android:id="@+id/channelFlag"
+        android:layout_gravity="top|right"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingRight="3dp"
+        android:contentDescription="@string/country_flag" />
+
+</FrameLayout>

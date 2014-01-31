@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Global -->
+    <string name="app_name">e*pvp shoutbawks</string>
+    <string name="menu_settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="about">About</string>
+    <string name="about_text">
+        <![CDATA[
+        <b>App development:</b><br/>
+        <a href="http://www.elitepvpers.com/forum/members/1135410-ende-.html">Ende!</a><br/>
+        <b>Beta testing:</b><br/>
+        <a href="http://www.elitepvpers.com/forum/members/1315747-allesvergeben.html">AllesVergeben</a>, 
+        <a href="http://www.elitepvpers.com/forum/members/1480713-mrsm-th.html">MrSm!th</a>, 
+        <a href="http://www.elitepvpers.com/forum/members/1278528-bodog6.html">Bodog6</a><br/>
+        <b>Special thanks:</b><br/>
+        <a href="http://www.elitepvpers.com/forum/members/455777-obilee.html">Obilee</a> (Java code-style tips, I'm a C guy)<br/>
+        <b>Github:</b><br/>
+        <a href="https://github.com/athre0z/epvp-shoutbawks">Tap here</a>
+        <b>Version:</b><br/>
+        v1.0.0
+        ]]>
+    </string>
+
+    <!-- Login activity -->
+    <string name="title_activity_login">e*pvp shoutbawks</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="stay_logged_in">Stay logged in?</string>
+    <string name="login_failed">Login failed, try again.</string>
+
+    <!-- Chat activity -->
+    <string name="title_activity_chat">e*pvp shoutbawks</string>
+    <string name="type_message_hint">Type a new message &#8230;</string>
+    <string name="send_button_text">Send</string>
+    <string name="logout">Logout</string>
+    <string name="login_in_progress">"Login in progress &#8230;"</string>
+    <string name="not_logged_in">Something is wrong with your session, try to relog.</string>
+    <string name="could_not_send_msg">Message could not be sent.</string>
+    <string name="updating">Updating &#8230;</string>
+    <string name="updating_failed">Could not retrieve new data.</string>
+    <string name="refresh">Refresh</string>
+    <string name="country_flag">Channel\'s country flag</string>
+    
+	<!-- Settings -->
+    <string name="title_activity_settings">Settings</string>
+
+</resources>
